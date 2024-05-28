@@ -1,0 +1,25 @@
+.required-input {
+    color: red;
+}
+
+.sign-up-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.sign-up-input {
+    display: grid;
+    grid-template-columns: 150px 300px 1fr;
+    column-gap: 10px;
+}
+
+.error-message {
+    color: red;
+}
+
+.validation-input:invalid {
+    border: 1px solid red;
+}
